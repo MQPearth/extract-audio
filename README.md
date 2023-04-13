@@ -10,6 +10,12 @@ Extract audio from a specified segment of a video and export it.
 ./extract-audio -v /home/audio/test.mp4 -s 00:00:00:000 -e 00:02:00:000
 ```
 
+| param |                           mean                           |
+|:-----:|:--------------------------------------------------------:|
+|  -v   |             video file path     \| 本地视频文件地址              |
+|  -s   |  Start time of the extracted audio clip \| 被提取音频片段的开始时间  |
+|  -e   | End time of the extracted audio clip     \| 被提取音频片段的结束时间 |
+
 ### config.json
 
 |       item        |                          mean                          |
